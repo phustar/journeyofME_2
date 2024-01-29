@@ -7,7 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="one">
     <nav>
         <div class="logo">
             <img src="https://i.ibb.co/ydGgcJ9/IMG-3676.webp">
@@ -22,8 +22,8 @@
         </div>
     </nav>
     <div class="playlist-right">
-        <div class="playlist-header">
-            <div class="playlist-top">
+        <div class="playlist-header-one">
+            <div class="playlist-top-one">
                 #one
             </div>
             <div class="playlist-content">
@@ -50,8 +50,8 @@
                 </div>
             </div>
         </div>
-        <div class="playlist-songs-container">
-            <div class="playlist-buttons"></div>
+        <div class="playlist-songs-container-one">
+            <div class="playlist-buttons-one">#one</div>
             <div class="playlist-songs">
                 <table>
                     <tr>
@@ -61,9 +61,9 @@
                         <th><i class='bx bx-time'></i></th>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td class="song-number">.1</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/ae/74/75/ae7475932ad9659bb4b523d462eaed05.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -75,17 +75,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Beauty Behind The Madness
                         </td>
-                        <td>
+                        <td class="song-duration">
                             5:49
                         </td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td class="song-number">.2</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhIVFRUXGBcXFxcXFRcXHRcXFxUXFxgYFxcYHSggGBolHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS03Lf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEBAQADAQEAAAAAAAAAAAABAAIDBQYEB//EADAQAQEBAAEABgkCBwEAAAAAAAABEQIDBBIxQXEFIVFhgZGhwfAGsRYiMlPR4fET/8QAGgEBAQEAAwEAAAAAAAAAAAAAAAECAwUGBP/EACERAQACAQQCAwEAAAAAAAAAAAABAgMEESExFFESE0Ey/9oADAMBAAIRAxEAPwD2mnWdT6nA0oItUahZlEqDcqZMBpayQJGpFbTJoNa1GNOg3KeLEOg24Ov3OHJzRwdf470fLy/b1s26lun9Q8r03N8/Lm10/L1vmvJ0eSeXeUjhu81ebivIdr3uJty3mbzcPaXaTccsqtcc5LtIrewsf+n5iZV7ShSl6h5pLfEWqATAQWmMxqAUNMBEKIrUrUZIFqMwgUDKDUq58dlntmKU6ivD9e6O8eVl8K+Plfe9B+puqWcpznde/wA3nOTpdRT43l3eC/ypEnVK4+0dfM529PacXaPaSRvR2mKtZahydpM9ue5Ir3R0RR6l5hU0SoCokK0pAkGkIQOqUEDCIQOLQ1oKEGIpMZjUoMda6vOk4Xhy7rPlfa8L6Q6ny6PlePKev93vXx+lfR/HpuOX1cp3X7eT5tRg+yOO306fN9c7T08DaJX1dd6ny6PlePLjZ9/J8tdPas1naXb1tFo3hXkZWRrEtt6BKLWVO+76/wCyxtQr9BqqieoeYMWK1aBxalEUqCIGlqgBpRKwGlBpAqAyop06MMAwyjSCalYaBw9c6nw6WZzm+/xnk8r6R/T/AD4beH8/H3d+e+PYSmVw5cFcnfbmxZ7Y+n5rz4WX1+px9l+i9a9H9H0n9fGW+3uv0dT0/wCl+F/o52efrdffRXjrl99NbWe+HkOQek6T9L9J4cuN+jP8K9L7ePzcPi5PTnjVY/bzvxiek/hTpP7nH5X/ACmfEy+jysXt3mGswx6B0TWjEqgZUlAUaEhBVDToNRAwDIolECYIZBVKRDAMQINIQoGIQqE4IQMqghxFKWoR1sqDTaA0HUChDAKUoBrUNa1BEGAjRDAKwNYKVghAoGIEsymQGosBBQiEUmBQEjqRHXYrRFG0aWs0gSJTviBUBQUpGoU06lBClqFJghlAqUaYDVWgxBGgimGMkQkQyCtJkgfghiQddKviMLbKh0FBcTokIFRRKKNBRBpCEFKcBRSQgOHBKQMSiAxKEFK0zCKY0zCBMjONRAper8iEdXCC2iwixcUDKpUsUMIMqKYtUUAoYUCYEoSLUDVWg4gYYzDKDWrQRTCycAwwGA0oFEG980Eo6swJWVDDIIK0highMgwwUlkoGUwRao0hCgUKQKWFFUIkKhi1SJAmQaoSGEQgaYCodRQOqIjSsgxLBVpGmAsaZjSGxiZa0DgKAxA6BhgKKjBSCagigE8WWgMUB0CaEBNZIFD4pFdfTaII2y1EPIz/AIgUDIBQMApLAMhCFMpg00CWdKBOrVQMQiUaxYtCDSEp0VoLioIYlEinEsQOvqBbZKowiKEHUVeJFIGRDDaBh41mmUCYEKTg04BWiGoEwLiB0yAwEdBQREIGJaMFaxAmw62EQ1plQwIDxMC0GuIixA1IhL7iBVUqAmCVQUwjDqBOCRQGkIYClIhgEs6QKghsQMqohwVZCyQddx8V7PzwiTTLXHw+J8PikoOP582uPckn6Ll3RT7xIC1EgZ4fdqeKSKuTUSAiFAIZ+fNJA8GklglTvPDvSBcfz6FIDFEkBybSFCSUf//Z">
                             </div>
                             <div class="song-name-artist">
@@ -97,17 +97,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             and Forevermore
                         </td>
-                        <td>
+                        <td class="song-duration">
                             3:03
                         </td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td class="song-number">.3</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/70/66/9b/70669b1a0245d1a8cd24fb6ae2e2e88c.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -119,17 +119,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Speak Now
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:53
                         </td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td class="song-number">.4</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/ae/74/75/ae7475932ad9659bb4b523d462eaed05.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -141,17 +141,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Beauty Behind The Madness
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:38
                         </td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td class="song-number">.5</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/736x/59/a2/3b/59a23ba6b60348578aedd11e0231494e.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -163,17 +163,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             I'VE MINE
                         </td>
-                        <td>
+                        <td class="song-duration">
                             2:47
                         </td>
                     </tr>
                     <tr>
-                        <td>6</td>
+                        <td class="song-number">.6</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="data:image/jpeg;base64,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">
                             </div>
                             <div class="song-name-artist">
@@ -185,17 +185,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Next Thing
                         </td>
-                        <td>
+                        <td class="song-duration">
                             2:04
                         </td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td class="song-number">.7</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/00/b5/0d/00b50dc86b7d647e57b1f7c99b671a41.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -207,17 +207,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             I am
                         </td>
-                        <td>
+                        <td class="song-duration">
                             3:57
                         </td>
                     </tr>
                     <tr>
-                        <td>8</td>
+                        <td class="song-number">.8</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/bf/80/4e/bf804e4a042887967dfa6f5f14d682c4.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -229,17 +229,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Trilogy
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:09
                         </td>
                     </tr>
                     <tr>
-                        <td>9</td>
+                        <td class="song-number">.9</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/34/8c/de/348cde20cde7f356fb70142c539f1aa8.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -251,17 +251,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             María
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:42
                         </td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td class="song-number">10</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/ee/ee/f8/eeeef8b142cfc86d2288c4299e7da81b.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -273,17 +273,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             I burn
                         </td>
-                        <td>
+                        <td class="song-duration">
                             3:01
                         </td>
                     </tr>
                     <tr>
-                        <td>11</td>
+                        <td class="song-number">11</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/04/5a/6e/045a6ebc929c4c779423c29437e83d2f.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -295,17 +295,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             0.1 flaws and all.
                         </td>
-                        <td>
+                        <td class="song-duration">
                             5:08
                         </td>
                     </tr>
                     <tr>
-                        <td>12</td>
+                        <td class="song-number">12</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.scdn.co/image/ab67616d0000b273b79a12d47af18d1d83a5caf9">
                             </div>
                             <div class="song-name-artist">
@@ -317,17 +317,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Love wins all
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:31
                         </td>
                     </tr>
                     <tr>
-                        <td>13</td>
+                        <td class="song-number">13</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://images.genius.com/977c290486aabe246b9925dfeea6a7ec.600x600x1.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -339,17 +339,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             My Dearest (Original Televison Soundtrack), Pt.4
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:04
                         </td>
                     </tr>
                     <tr>
-                        <td>14</td>
+                        <td class="song-number">14</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.pinimg.com/564x/04/5a/6e/045a6ebc929c4c779423c29437e83d2f.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -361,17 +361,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             0.1 flaws and all.
                         </td>
-                        <td>
+                        <td class="song-duration">
                             3:05
                         </td>
                     </tr>
                     <tr>
-                        <td>15</td>
+                        <td class="song-number">15</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://i.scdn.co/image/ab67616d0000b27399df8c65b4fde07a3a8ea595">
                             </div>
                             <div class="song-name-artist">
@@ -383,17 +383,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             내가 사랑하는 당신, 머문 곳에 (Where My Loved One Stayed)
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:13
                         </td>
                     </tr>
                     <tr>
-                        <td>16</td>
+                        <td class="song-number">16</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://cdns-images.dzcdn.net/images/cover/0eb6428f2855c5fec47793ca77aebc17/500x500.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -405,17 +405,17 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             꽃 Flower
                         </td>
-                        <td>
+                        <td class="song-duration">
                             4:58
                         </td>
                     </tr>
                     <tr>
-                        <td>17</td>
+                        <td class="song-number">17</td>
                         <td class="song-title">
-                            <div class="song image">
+                            <div class="song-image">
                                 <img src="https://cdns-images.dzcdn.net/images/cover/049a4a2ce1c76d09cfd6eff2d64593b8/500x500.jpg">
                             </div>
                             <div class="song-name-artist">
@@ -427,10 +427,10 @@
                                 </div>
                             </div>
                         </td>
-                        <td>
+                        <td class="song-album">
                             Fishtank
                         </td>
-                        <td>
+                        <td class="song-duration">
                             2:01
                         </td>
                     </tr>
@@ -439,11 +439,6 @@
         </div>
     </div>
 
-
-
-
-
-    
     <footer>
         <div class="socials">
             <a href="https://open.spotify.com/user/8cbiwocrd7c0hsf4shrlmpcn8?si=5bcca09754b24ca7"><i class='bx bxl-spotify'></i></a>
