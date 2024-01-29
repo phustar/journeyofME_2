@@ -279,6 +279,7 @@ background: linear-gradient(180deg, rgba(74,25,14,1) 0%, rgba(1,0,1,1) 27%);
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 2px;
+    padding-top: 3px;
 }
 
 .playlist-songs th:first-of-type {
