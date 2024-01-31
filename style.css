@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .one {
@@ -21,7 +21,9 @@ a {
 img {
     object-fit: cover;
     object-position: top;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 2px 48px -2px rgba(0,0,0,0.67);
+-webkit-box-shadow: 1px 2px 48px -2px rgba(0,0,0,0.67);
+-moz-box-shadow: 1px 2px 48px -2px rgba(0,0,0,0.67);
 }
 
 nav {
@@ -42,7 +44,10 @@ nav .logo {
 nav .logo img {
     width: 40px;
     height: 40px;
-    border-radius: 20%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 48px -2px rgba(0,0,0,0.67);
+-webkit-box-shadow: 1px 2px 48px -2px rgba(0,0,0,0.67);
+-moz-box-shadow: 1px 2px 48px -2px rgba(0,0,0,0.67);
 }
 
 nav .logo a {
@@ -208,7 +213,7 @@ border-radius: 5px;
 }
 
 .playlist-public {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -276,9 +281,9 @@ background: linear-gradient(180deg, rgba(74,25,14,1) 0%, rgba(1,0,1,1) 27%);
 .playlist-songs table tr td, .playlist-songs tr th {
     font-weight: 600;
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     padding-top: 3px;
 }
 
@@ -287,7 +292,7 @@ background: linear-gradient(180deg, rgba(74,25,14,1) 0%, rgba(1,0,1,1) 27%);
 }
 
 .playlist-songs table tr:first-of-type {
-    border-bottom: 1px solid #cacaca;
+    border-bottom: 1px solid #898989;
 }
 
 .playlist-songs table th {
@@ -303,9 +308,10 @@ background: linear-gradient(180deg, rgba(74,25,14,1) 0%, rgba(1,0,1,1) 27%);
 }
 
 .song-image img {
-    width: 36px;
-    height: 36px;
-    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 4px;
 }
 
 .song-title {
@@ -318,25 +324,28 @@ background: linear-gradient(180deg, rgba(74,25,14,1) 0%, rgba(1,0,1,1) 27%);
 
 .song-album {
     padding-left: 10px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.9px;
+    text-transform: none;
 }
-
 
 .song-name {
     font-weight: 400;
     font-size:14px;
+    letter-spacing: 0.9px;
+    text-transform: none;
     color: white;
 }
 
 .song-artist, .song-album, .song-duration, tr td:first-of-type {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 6px;
     color: #898989;
-    margin-bottom: 6px;
+    letter-spacing: 0.9px;
+    text-transform: none;
 }
 
 .song-duration {
-    padding-right: 20px;
+    padding-right: 20px;;
 }
 
 tr td:first-of-type {
